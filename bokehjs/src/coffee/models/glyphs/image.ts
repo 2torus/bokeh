@@ -67,8 +67,8 @@ export class ImageView extends XYGlyphView {
   _lrtb(i: any) {
     const l = this._x[i]
     const r = l + this._dw[i]
-    const b = this._y[i]
     const t = b + this._dh[i]
+    const b = this._y[i]
     return [l, r, t, b]
   }
 
